@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('images/background2.jpg'); /* Ganti dengan jalur gambar Anda */
+    background-size: cover; /* Agar gambar menyesuaikan layar */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    background-position: center; /* Memusatkan gambar */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+} ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+form h1 {
+    text-align: center;
+    color: #add8e6; /* Warna biru muda */
+    font-family: 'Georgia', serif; /* Font lebih elegan */
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #87ceeb; /* Efek bayangan */
+}
+/* CSS untuk menyesuaikan form pemesanan */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid #add8e6; /* Warna biru muda */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff; /* Warna putih */
+}
+
+form h1 {
+    text-align: center;
+    color: #add8e6; /* Warna biru muda */
+    font-family: 'Arial', sans-serif; /* Tulisan aesthetic */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333333; /* Warna abu-abu gelap */
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #add8e6;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+form button {
+    background-color: #add8e6;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: #87ceeb; /* Warna biru yang sedikit lebih gelap */
+}
+/* Memusatkan tulisan "Form Pemesanan Makanan" */
+form h1 {
+    text-align: center;
+    color: #add8e6; /* Warna biru muda */
+    font-family: 'Georgia', serif; /* Font lebih elegan */
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #87ceeb; /* Efek bayangan */
+}
+
+/* Gaya untuk label input */
+form label {
+    font-family: 'Georgia', serif; /* Font elegan */
+    font-size: 18px;
+    color: #333333; /* Warna abu-abu gelap */
+    margin-bottom: 5px;
+    display: block;
+    text-align: center; /* Memusatkan tulisan */
+    text-shadow: 1px 1px 2px #add8e6; /* Efek bayangan */
+}
+
+/* Input dan tombol lebih estetik */
+form input[type="text"],
+form input[type="number"],
+form button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #add8e6;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Efek 3D */
+}
+
+/* Tombol lebih estetik */
+form button {
+    background-color: #add8e6;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #87ceeb; /* Warna biru yang lebih gelap saat hover */
+}
+
+/* Menambahkan efek hover pada input */
+form input[type="text"]:hover,
+form input[type="number"]:hover {
+    border-color: #87ceeb;
+    box-shadow: 0px 4px 8px rgba(135, 206, 235, 0.5); /* Efek bayangan */
+}

@@ -1,0 +1,19 @@
+/* Teks utama di halaman home */
+main h2 {
+    font-size: 50px; /* Membuat teks lebih besar */
+    font-weight: bold; /* Menambahkan ketebalan font */
+    color: #3d3435; /* Warna merah tomat untuk teks */
+    margin-bottom: 20px; /* Memberikan jarak bawah */
+    text-align: center; /* Membuat teks menjadi rata tengah */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Memberikan bayangan pada teks */
+}
+
+/* Teks penjelasan di bawah judul */
+main p {
+    font-size: 30px; /* Ukuran font yang lebih besar */
+    font-style: italic; /* Menambahkan gaya italic */
+    color: hsl(0, 1%, 27%); /* Warna putih susu */
+    text-align: center; /* Rata tengah */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan pada teks */
+    margin-top: 10px; /* Memberikan jarak atas */
+}

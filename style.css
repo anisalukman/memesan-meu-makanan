@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('images/background2.jpg'); /* Ganti dengan jalur gambar Anda */
+    background-size: cover; /* Agar gambar menyesuaikan layar */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    background-position: center; /* Memusatkan gambar */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+} ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.menu-navigation a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden; /* Agar elemen tidak keluar dari kotak */
+    text-align: center;
+    padding: 0; /* Hapus padding agar lebih rapi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px; /* Ukuran tinggi gambar */
+    object-fit: cover; /* Menjaga proporsi gambar */
+    display: block; /* Menghilangkan celah di bawah gambar */
+}
+
+.menu-item h3 {
+    color: #FF4500;
+    font-size: 1.5em;
+    margin: 10px 0 5px; /* Jarak atas dan bawah */
+}
+
+.menu-item p {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0; /* Jarak antar paragraf */
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Tambahkan CSS untuk pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background: #FF4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background: #FF6347;
+}
+
+.menu-item .price {
+    margin-top: auto; /* Dorong "Rp" ke bagian bawah */
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.menu-item .price .rp {
+    color: #ff4500;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.4em;
+    margin-right: 5px;
+}
+
+.menu-item .price .amount {
+    color: #4c4b49;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+}
